@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap");
+body, html {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #1c1a1c;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 50rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main .blockage {
+  width: 70%;
+  background-color: #1c1a1c;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: 5;
+}
+
+.main .left {
+  width: 100%;
+  height: 100vh;
+  background-color: #1c1a1c;
+  position: relative;
+}
+
+.main .left .title {
+  color: #fafbfb;
+  font-weight: 600;
+  font-size: 5rem;
+  z-index: 2;
+  position: relative;
+  max-width: 60rem;
+  margin-left: 1.7em;
+  margin-top: 2em;
+  line-height: 1.2em;
+}
+
+.main .left .desc {
+  color: #fafbfb;
+  z-index: 2;
+  position: relative;
+  font-size: 1.4rem;
+  margin-top: -1.5em;
+  margin-left: 6em;
+}
+
+.main .left .explore {
+  width: 8em;
+  background-color: #27395d;
+  color: #fafbfb;
+  font-family: relative;
+  height: 3em;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 8.5em;
+  cursor: pointer;
+  border-radius: 0.5em;
+}
+
+.main .left .explore .expDesc {
+  text-align: center;
+  padding: 0.7em;
+  letter-spacing: 2px;
+}
+
+.main .right {
+  width: 40%;
+  height: 100vh;
+  background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+  background-color: #27395d;
+  background-size: 16px 16px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.main .pet1 {
+  width: 38rem;
+  position: absolute;
+  bottom: -0.8em;
+  height: 35rem;
+  right: 1rem;
+  left: 2rem;
+}
+
+@media screen and (max-width: 1490px) {
+  .main {
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 50rem;
+  }
+  .main .blockage {
+    width: 80%;
+    background-color: #1c1a1c;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+  }
+  .main .left {
+    width: 100%;
+    height: 100vh;
+    background-color: #1c1a1c;
+    position: relative;
+  }
+  .main .left .title {
+    color: #fafbfb;
+    font-weight: 600;
+    font-size: 4rem;
+    z-index: 2;
+    position: relative;
+    max-width: 40rem;
+    margin-left: 1em;
+    margin-top: 2em;
+  }
+  .main .left .desc {
+    color: #fafbfb;
+    z-index: 2;
+    position: relative;
+    font-size: 1.4rem;
+    margin-top: -1.5em;
+    margin-left: 3em;
+  }
+  .main .left .explore {
+    width: 8em;
+    background-color: #27395d;
+    color: #fafbfb;
+    font-family: relative;
+    height: 3em;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 4em;
+  }
+  .main .left .explore .expDesc {
+    text-align: center;
+    padding: 0.7em;
+    letter-spacing: 2px;
+  }
+  .main .right {
+    width: 40%;
+    height: 100vh;
+    background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+    background-color: #27395d;
+    background-size: 16px 16px;
+    position: absolute;
+    right: 0;
+  }
+  .main .pet1 {
+    width: 25rem;
+    position: absolute;
+    bottom: -0.7;
+    height: 22rem;
+    left: 3rem;
+  }
+}
+
+@media screen and (max-width: 1078px) {
+  .main {
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 50rem;
+  }
+  .main .blockage {
+    width: 80%;
+    background-color: #1c1a1c;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+  }
+  .main .left {
+    width: 100%;
+    height: 100vh;
+    background-color: #1c1a1c;
+    position: relative;
+  }
+  .main .left .title {
+    color: #fafbfb;
+    font-weight: 600;
+    font-size: 4rem;
+    z-index: 2;
+    position: relative;
+    max-width: 40rem;
+    margin-left: 1em;
+    margin-top: 2em;
+  }
+  .main .left .desc {
+    color: #fafbfb;
+    z-index: 2;
+    position: relative;
+    font-size: 1.4rem;
+    margin-top: -1.5em;
+    margin-left: 3em;
+  }
+  .main .left .explore {
+    width: 8em;
+    background-color: #27395d;
+    color: #fafbfb;
+    font-family: relative;
+    height: 3em;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 4em;
+  }
+  .main .left .explore .expDesc {
+    text-align: center;
+    padding: 0.7em;
+    letter-spacing: 2px;
+  }
+  .main .right {
+    width: 40%;
+    height: 100vh;
+    background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+    background-color: #27395d;
+    background-size: 16px 16px;
+    position: absolute;
+    right: 0;
+  }
+  .main .pet1 {
+    width: 20rem;
+    position: absolute;
+    bottom: -0.7;
+    height: 20rem;
+    left: 2rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
